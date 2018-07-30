@@ -22,7 +22,7 @@ npm run lint
 
 ## Vue 实例
 
-### 创建实例(./src/main.js)
+### [创建实例](./src/main.js)
 ```javascript
 var vm = new vue({
     //选项
