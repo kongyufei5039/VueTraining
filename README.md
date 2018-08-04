@@ -22,7 +22,7 @@ npm run lint
 
 ## Vue 实例
 
-### [创建实例](./src/components/vueInstance)
+### [创建实例](./src/components/vueInstance.js)
 ```javascript
 var vm = new vue({
     //选项
@@ -53,3 +53,6 @@ data.a // => 2
 data.a = 3
 vm.a // => 3
 ```
+
+### 实例属性
+#### [vm.$data](./src/components/vueInstance.js)

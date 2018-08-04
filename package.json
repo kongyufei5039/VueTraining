@@ -9,6 +9,7 @@
     "inspect": "vue-cli-service inspect"
   },
   "dependencies": {
+    "eslint-plugin-html": "^4.0.5",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"
   },
