@@ -1,25 +1,5 @@
 # Vue.js 技术栈练习
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
 ## Vue 实例
 
 ### [创建实例](./src/components/vueInstance.js)
@@ -55,4 +35,9 @@ vm.a // => 3
 ```
 
 ### 实例属性
-#### [vm.$data](./src/components/vueInstance.js)
+#### vm.$data
+#### vm.$el
+#### vm.$options
+#### vm.$parent
+#### vm.$root
+#### vm.$children
