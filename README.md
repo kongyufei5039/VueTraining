@@ -34,10 +34,23 @@ data.a = 3
 vm.a // => 3
 ```
 
-### 实例属性
+### [实例属性](./src/components/vueInstance.js)
 #### vm.$data
+#### vm.$props
 #### vm.$el
 #### vm.$options
 #### vm.$parent
 #### vm.$root
 #### vm.$children
+#### vm.$slots
+#### vm.$scopedSlots
+#### vm.$refs
+#### vm.$isServer
+#### vm.$attrs
+#### vm.$listeners
+
+### 实例生命周期
+#### vm.created
+#### vm.mounted
+#### vm.updated
+#### vm.destroyed
