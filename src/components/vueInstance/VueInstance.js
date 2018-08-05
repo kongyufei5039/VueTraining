@@ -1,15 +1,16 @@
 import Vue from 'vue'
-import App from '../App'
-import router from '../router'
+import App from '../../App'
+import router from '../../router'
 import wrap from '@vue/web-component-wrapper'
-import componentA from './componentA'
+import componentA from './ComponentA'
+import '@/assets/base.css'
 
 // 注册全局组件
 Vue.component('component-b', { // webpack中配置 alias: vue/dist/vue.esm.js 或 runtimeCompiler: true
   data () {
-    return { hi: 'hi' }
+    return { b: '2' }
   },
-  template: '<div>{{ hi }}</div>'
+  template: '<div>{{ b }}</div>'
 })
 
 // 在 Web Components 模式中，Vue 是外置的。

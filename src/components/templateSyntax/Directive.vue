@@ -1,12 +1,14 @@
 <template>
-  <div>{{b}}</div>
+  <div>
+    <p>v-text: <span v-text="text"></span></p>
+  </div>
 </template>
 
 <script>
 export default {
   data () {
     return {
-      b: 2
+      text: 'a'
     }
   }
 }
