@@ -34,11 +34,11 @@ data.a = 3
 vm.a // => 3
 ```
 
-### [实例属性]
+### [实例属性]()
 
-### [实例生命周期]
+### [实例生命周期]()
 
 ## 模板语法
 
 ### [插值](./src/components/templateSyntax/Interpolation.vue)
-### [原始HTML](./src/components/templateSyntax/OriginHtml.vue)
+### [指令](./src/components/templateSyntax/Directive.vue)
