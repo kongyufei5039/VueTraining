@@ -1,4 +1,28 @@
 .title {
   display: block;
   font-size: 18px;
+  font-weight: 600;
+}
+
+.highlight {
+  overflow-x: auto;
+  background-color: #f8f8f8;
+  padding: 0.4em 0 0;
+  line-height: 1.1em;
+  border-radius: 2px;
+  position: relative;
+}
+
+.content h2 {
+  margin: 45px 0 0.8em;
+  padding-bottom: 0.7em;
+  border-bottom: 1px solid #ddd;
+}
+
+.content div {
+  margin-bottom: 30px;
+}
+
+.content div:last-child {
+  margin-bottom: 0;
 }
