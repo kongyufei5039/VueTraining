@@ -7,14 +7,13 @@
 .highlight {
   overflow-x: auto;
   background-color: #f8f8f8;
-  padding: 0.4em 0 0;
+  padding: 0.4em;
   line-height: 1.1em;
   border-radius: 2px;
   position: relative;
 }
 
 .content h2 {
-  margin: 45px 0 0.8em;
   padding-bottom: 0.7em;
   border-bottom: 1px solid #ddd;
 }
@@ -25,4 +24,12 @@
 
 .content div:last-child {
   margin-bottom: 0;
+}
+
+.code {
+  color: #e96900;
+  padding: 3px 5px;
+  margin: 0 2px;
+  border-radius: 2px;
+  white-space: nowrap;
 }

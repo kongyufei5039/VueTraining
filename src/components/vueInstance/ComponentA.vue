@@ -6,7 +6,7 @@
 export default {
   data () {
     return {
-      a: 1
+      a: '全局注册组件A'
     }
   }
 }

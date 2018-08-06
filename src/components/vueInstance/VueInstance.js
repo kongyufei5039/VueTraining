@@ -8,7 +8,7 @@ import '@/assets/base.css'
 // 注册全局组件
 Vue.component('component-b', { // webpack中配置 alias: vue/dist/vue.esm.js 或 runtimeCompiler: true
   data () {
-    return { b: '2' }
+    return { b: '全局注册组件B' }
   },
   template: '<div>{{ b }}</div>'
 })

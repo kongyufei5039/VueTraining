@@ -5,16 +5,16 @@
       <menu-list></menu-list>
     </div>
     <div>
-      <home></home>
+      <c-main></c-main>
     </div>
   </div>
 </template>
 
 <script>
 import menuList from './components/menu'
-import home from './components/main'
+import cMain from './components/main'
 export default {
-  components: { menuList, home }
+  components: { menuList, cMain }
 }
 </script>
 
